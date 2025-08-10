@@ -1,0 +1,978 @@
+<div class="col-xs-12 col-sm-6 col-md-4 loop-block">
+    <div class="custom-listing">
+        <a href="https://aitoptools.com/tool/voicify-ai/" class="tool-link-tool-loop"></a>
+        <div class="custom-listing-image"
+            style="background-image: url(https://aitoptools.com/wp-content/uploads/2024/01/voicify-ai.jpg)">
+            <div class="start-price">$8.99 for 25 credits.</div>
+            <div class="custom-bookmark"><a
+                    onclick="javascirpt:checkbookmark(26022);"><img src="/wp-content/uploads/2024/01/heart.svg" alt="verify" style="width:32px; vertical-align: middle;"></a>
+            </div>
+        </div>
+        <div class="custom-listing-content">
+            <div class="clearfix">
+                <h2>Voicify AI</h2>
+                <div class="tool-rating">
+                    <div data-elementor-type="section" data-elementor-id="128690" class="elementor elementor-128690"
+                        data-elementor-post-type="elementor_library">
+                        <section
+                            class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-d3d610f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="d3d610f" data-element_type="section"
+                            data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+                            <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d4d2c58"
+                                    data-id="d4d2c58" data-element_type="column"
+                                    data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-b16bb6e elementor-widget__width-auto jedv-enabled--yes ob-has-background-overlay elementor-widget elementor-widget-jet-listing-dynamic-field"
+                                            data-id="b16bb6e" data-element_type="widget"
+                                            data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                            data-widget_type="jet-listing-dynamic-field.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="jet-listing jet-listing-dynamic-field display-inline">
+                                                    <div class="jet-listing-dynamic-field__inline-wrap">
+                                                        <div class="jet-listing-dynamic-field__icon is-svg-icon"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1"
+                                                                x="0px" y="0px" viewBox="0 0 21 21"
+                                                                xml:space="preserve">
+                                                                <g id="material-symbols:star-half">
+                                                                    <path id="Vector" fill="#182230"
+                                                                        d="M10.7,7.3l1.9,2l0.3,4.4l0.4,1.7l-0.7-3l2.3-2l-3-0.3L10.7,7.3z M5.5,18.8L6.9,13L2.3,9l6-0.5  L10.7,3L13,8.5L19,9L14.5,13l1.4,5.9l-5.1-3.1L5.5,18.8z">
+                                                                    </path>
+                                                                </g>
+                                                            </svg></div>
+                                                        <div class="jet-listing-dynamic-field__content">3.4</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <p>Create AI music covers, train custom AI singing voice models, and find community created AI music.</p>
+        </div>
+        <div>
+            <div class="tool-tag"><a href="https://aitoptools.com/ai-tools/music-generator/">Music Generator</a></div>
+            <div class="payment-term">Paid</div>
+            <span style="font-weight:600;padding: 0 10px;font-size: 28px;line-height: 14px;vertical-align:middle;">&middot;</span>
+            <span><i class="fas fa-chart-bar" style="font-weight:bold;"></i>&nbsp; <span style="font-weight:bold;">2M</span></span>
+        </div>
+        <div id="tool-26022" class="popup">
+            <header>
+                <span>Voicify AI</span>
+                <div class="close" onclick=javascript:closebookpopup(26022);>X</div>
+            </header>
+            <div class="content">
+                <div id="loginmsg-26022" style="display:none;">
+                    <p>Please login to add in Bookmark.</p>
+                    <a href="https://aitoptools.com/login/">Login</a>
+                </div>
+                <p id="msgp26022" style="display:none;"></p>
+                <div id="ubdiv-26022" style="">
+                </div>
+                <div id="unewcatdiv-26022" style="display:none;">
+                    <input type="hidden" name="edcatid26022" id="edcatid26022" value="">
+                    <label id="fmlb26022">New Category:</label><input type="text" name="newct26022" id="newct26022" value="">
+                    <input type="button" value="Update" onclick="javscript:addncategory(26022);">
+                </div>
+            </div>
+            <a id="anwbt26022" style="display:none;" onclick="javascript:addbcategory(26022);">New Category</a>
+            <a id="mngbt26022" style="display:none;" onclick="javascript:managebcategory(26022);">Manage Category</a>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 loop-block">
+    <div class="custom-listing">
+        <a href="https://aitoptools.com/tool/tekmatix/" class="tool-link-tool-loop"></a>
+        <div class="custom-listing-image"
+            style="background-image: url(https://aitoptools.com/wp-content/uploads/2024/01/tekmatix.jpg)">
+            <div class="start-price">$97/mo</div>
+            <div class="custom-bookmark"><a
+                    onclick="javascirpt:checkbookmark(36244);"><img src="/wp-content/uploads/2024/01/heart.svg" alt="verify" style="width:32px; vertical-align: middle;"></a>
+            </div>
+        </div>
+        <div class="custom-listing-content">
+            <div class="clearfix">
+                <h2>Tekmatix</h2>
+                <div class="tool-rating">
+                    <div data-elementor-type="section" data-elementor-id="128690" class="elementor elementor-128690"
+                        data-elementor-post-type="elementor_library">
+                        <section
+                            class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-d3d610f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="d3d610f" data-element_type="section"
+                            data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+                            <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d4d2c58"
+                                    data-id="d4d2c58" data-element_type="column"
+                                    data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-b16bb6e elementor-widget__width-auto jedv-enabled--yes ob-has-background-overlay elementor-widget elementor-widget-jet-listing-dynamic-field"
+                                            data-id="b16bb6e" data-element_type="widget"
+                                            data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                            data-widget_type="jet-listing-dynamic-field.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="jet-listing jet-listing-dynamic-field display-inline">
+                                                    <div class="jet-listing-dynamic-field__inline-wrap">
+                                                        <div class="jet-listing-dynamic-field__icon is-svg-icon"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1"
+                                                                x="0px" y="0px" viewBox="0 0 21 21"
+                                                                xml:space="preserve">
+                                                                <g id="material-symbols:star-half">
+                                                                    <path id="Vector" fill="#182230"
+                                                                        d="M10.7,7.3l1.9,2l0.3,4.4l0.4,1.7l-0.7-3l2.3-2l-3-0.3L10.7,7.3z M5.5,18.8L6.9,13L2.3,9l6-0.5  L10.7,3L13,8.5L19,9L14.5,13l1.4,5.9l-5.1-3.1L5.5,18.8z">
+                                                                    </path>
+                                                                </g>
+                                                            </svg></div>
+                                                        <div class="jet-listing-dynamic-field__content">5.0</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <p>Efficiently manage customer relationships, create and sell online courses, and establish a comprehensive
+                online presence.</p>
+        </div>
+        <div>
+            <div class="tool-tag"><a href="https://aitoptools.com/ai-tools/customer-service/">Customer Service</a></div>
+            <div class="payment-term">Free Trial</div>
+            <span style="font-weight:600;padding: 0 10px;font-size: 28px;line-height: 14px;vertical-align:middle;">&middot;</span>
+            <span><i class="fas fa-chart-bar" style="font-weight:bold;"></i>&nbsp; <span style="font-weight:bold;">12K</span></span>
+        </div>
+        <div id="tool-36244" class="popup">
+            <header>
+                <span>Tekmatix</span>
+                <div class="close" onclick=javascript:closebookpopup(36244);>X</div>
+            </header>
+            <div class="content">
+                <div id="loginmsg-36244" style="display:none;">
+                    <p>Please login to add in Bookmark.</p>
+                    <a href="https://aitoptools.com/login/">Login</a>
+                </div>
+                <p id="msgp36244" style="display:none;"></p>
+                <div id="ubdiv-36244" style="">
+                </div>
+                <div id="unewcatdiv-36244" style="display:none;">
+                    <input type="hidden" name="edcatid36244" id="edcatid36244" value="">
+                    <label id="fmlb36244">New Category:</label><input type="text" name="newct36244" id="newct36244" value="">
+                    <input type="button" value="Update" onclick="javscript:addncategory(36244);">
+                </div>
+            </div>
+            <a id="anwbt36244" style="display:none;" onclick="javascript:addbcategory(36244);">New Category</a>
+            <a id="mngbt36244" style="display:none;" onclick="javascript:managebcategory(36244);">Manage Category</a>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 loop-block">
+    <div class="custom-listing">
+        <a href="https://aitoptools.com/tool/pandadoc/" class="tool-link-tool-loop"></a>
+        <div class="custom-listing-image"
+            style="background-image: url(https://aitoptools.com/wp-content/uploads/2024/01/pandadoc.jpg)">
+            <div class="custom-bookmark"><a
+                    onclick="javascirpt:checkbookmark(32986);"><img src="/wp-content/uploads/2024/01/heart.svg" alt="verify" style="width:32px; vertical-align: middle;"></a>
+            </div>
+        </div>
+        <div class="custom-listing-content">
+            <div class="clearfix">
+                <h2>PandaDoc</h2>
+                <div class="tool-rating">
+                    <div data-elementor-type="section" data-elementor-id="128690" class="elementor elementor-128690"
+                        data-elementor-post-type="elementor_library">
+                        <section
+                            class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-d3d610f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="d3d610f" data-element_type="section"
+                            data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+                            <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d4d2c58"
+                                    data-id="d4d2c58" data-element_type="column"
+                                    data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-b16bb6e elementor-widget__width-auto jedv-enabled--yes ob-has-background-overlay elementor-widget elementor-widget-jet-listing-dynamic-field"
+                                            data-id="b16bb6e" data-element_type="widget"
+                                            data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                            data-widget_type="jet-listing-dynamic-field.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="jet-listing jet-listing-dynamic-field display-inline">
+                                                    <div class="jet-listing-dynamic-field__inline-wrap">
+                                                        <div class="jet-listing-dynamic-field__icon is-svg-icon"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1"
+                                                                x="0px" y="0px" viewBox="0 0 21 21"
+                                                                xml:space="preserve">
+                                                                <g id="material-symbols:star-half">
+                                                                    <path id="Vector" fill="#182230"
+                                                                        d="M10.7,7.3l1.9,2l0.3,4.4l0.4,1.7l-0.7-3l2.3-2l-3-0.3L10.7,7.3z M5.5,18.8L6.9,13L2.3,9l6-0.5  L10.7,3L13,8.5L19,9L14.5,13l1.4,5.9l-5.1-3.1L5.5,18.8z">
+                                                                    </path>
+                                                                </g>
+                                                            </svg></div>
+                                                        <div class="jet-listing-dynamic-field__content">4.8</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <p>Create, send, and track professional documents with automated workflows and secure online document
+                signing.</p>
+        </div>
+        <div>
+            <div class="tool-tag"><a href="https://aitoptools.com/ai-tools/task-automation/">Task Automation</a></div>
+            <div class="payment-term">Contact for Pricing</div>
+        </div>
+        <div id="tool-32986" class="popup">
+            <header>
+                <span>PandaDoc</span>
+                <div class="close" onclick=javascript:closebookpopup(32986);>X</div>
+            </header>
+            <div class="content">
+                <div id="loginmsg-32986" style="display:none;">
+                    <p>Please login to add in Bookmark.</p>
+                    <a href="https://aitoptools.com/login/">Login</a>
+                </div>
+                <p id="msgp32986" style="display:none;"></p>
+                <div id="ubdiv-32986" style="">
+                </div>
+                <div id="unewcatdiv-32986" style="display:none;">
+                    <input type="hidden" name="edcatid32986" id="edcatid32986" value="">
+                    <label id="fmlb32986">New Category:</label><input type="text" name="newct32986" id="newct32986" value="">
+                    <input type="button" value="Update" onclick="javscript:addncategory(32986);">
+                </div>
+            </div>
+            <a id="anwbt32986" style="display:none;" onclick="javascript:addbcategory(32986);">New Category</a>
+            <a id="mngbt32986" style="display:none;" onclick="javascript:managebcategory(32986);">Manage Category</a>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 loop-block">
+    <div class="custom-listing">
+        <a href="https://aitoptools.com/tool/brain-fm/" class="tool-link-tool-loop"></a>
+        <div class="custom-listing-image"
+            style="background-image: url(https://aitoptools.com/wp-content/uploads/2024/01/brain-fm.jpg)">
+            <div class="start-price">$4.17/Month</div>
+            <div class="custom-bookmark"><a
+                    onclick="javascirpt:checkbookmark(235);"><img src="/wp-content/uploads/2024/01/heart.svg" alt="verify" style="width:32px; vertical-align: middle;"></a>
+            </div>
+        </div>
+        <div class="custom-listing-content">
+            <div class="clearfix">
+                <h2>Brain.fm</h2>
+                <div class="tool-rating">
+                    <div data-elementor-type="section" data-elementor-id="128690" class="elementor elementor-128690"
+                        data-elementor-post-type="elementor_library">
+                        <section
+                            class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-d3d610f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="d3d610f" data-element_type="section"
+                            data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+                            <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d4d2c58"
+                                    data-id="d4d2c58" data-element_type="column"
+                                    data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-b16bb6e elementor-widget__width-auto jedv-enabled--yes ob-has-background-overlay elementor-widget elementor-widget-jet-listing-dynamic-field"
+                                            data-id="b16bb6e" data-element_type="widget"
+                                            data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                            data-widget_type="jet-listing-dynamic-field.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="jet-listing jet-listing-dynamic-field display-inline">
+                                                    <div class="jet-listing-dynamic-field__inline-wrap">
+                                                        <div class="jet-listing-dynamic-field__icon is-svg-icon"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1"
+                                                                x="0px" y="0px" viewBox="0 0 21 21"
+                                                                xml:space="preserve">
+                                                                <g id="material-symbols:star-half">
+                                                                    <path id="Vector" fill="#182230"
+                                                                        d="M10.7,7.3l1.9,2l0.3,4.4l0.4,1.7l-0.7-3l2.3-2l-3-0.3L10.7,7.3z M5.5,18.8L6.9,13L2.3,9l6-0.5  L10.7,3L13,8.5L19,9L14.5,13l1.4,5.9l-5.1-3.1L5.5,18.8z">
+                                                                    </path>
+                                                                </g>
+                                                            </svg></div>
+                                                        <div class="jet-listing-dynamic-field__content">5.0</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <p>Boost productivity with scientifically-proven background music, reducing distractions and helping you
+                stay focused on your goals.</p>
+        </div>
+        <div>
+            <div class="tool-tag"><a href="https://aitoptools.com/ai-tools/productivity/">Productivity</a></div>
+            <div class="payment-term">Free Trial</div>
+            <span style="font-weight:600;padding: 0 10px;font-size: 28px;line-height: 14px;vertical-align:middle;">&middot;</span>
+            <span><i class="fas fa-chart-bar" style="font-weight:bold;"></i>&nbsp; <span style="font-weight:bold;">2M</span></span>
+        </div>
+        <div id="tool-235" class="popup">
+            <header>
+                <span>Brain.fm</span>
+                <div class="close" onclick=javascript:closebookpopup(235);>X</div>
+            </header>
+            <div class="content">
+                <div id="loginmsg-235" style="display:none;">
+                    <p>Please login to add in Bookmark.</p>
+                    <a href="https://aitoptools.com/login/">Login</a>
+                </div>
+                <p id="msgp235" style="display:none;"></p>
+                <div id="ubdiv-235" style="">
+                </div>
+                <div id="unewcatdiv-235" style="display:none;">
+                    <input type="hidden" name="edcatid235" id="edcatid235" value="">
+                    <label id="fmlb235">New Category:</label><input type="text" name="newct235" id="newct235" value="">
+                    <input type="button" value="Update" onclick="javscript:addncategory(235);">
+                </div>
+            </div>
+            <a id="anwbt235" style="display:none;" onclick="javascript:addbcategory(235);">New Category</a>
+            <a id="mngbt235" style="display:none;" onclick="javascript:managebcategory(235);">Manage Category</a>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 loop-block">
+    <div class="custom-listing">
+        <a href="https://aitoptools.com/tool/landingi/" class="tool-link-tool-loop"></a>
+        <div class="custom-listing-image"
+            style="background-image: url(https://aitoptools.com/wp-content/uploads/2024/01/landingi.jpg)">
+            <div class="custom-bookmark"><a
+                    onclick="javascirpt:checkbookmark(31911);"><img src="/wp-content/uploads/2024/01/heart.svg" alt="verify" style="width:32px; vertical-align: middle;"></a>
+            </div>
+        </div>
+        <div class="custom-listing-content">
+            <div class="clearfix">
+                <h2>Landingi</h2>
+                <div class="tool-rating">
+                    <div data-elementor-type="section" data-elementor-id="128690" class="elementor elementor-128690"
+                        data-elementor-post-type="elementor_library">
+                        <section
+                            class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-d3d610f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="d3d610f" data-element_type="section"
+                            data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+                            <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d4d2c58"
+                                    data-id="d4d2c58" data-element_type="column"
+                                    data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <p>Create high-converting landing pages with customizable templates, A/B testing, and advanced analytics.
+            </p>
+        </div>
+        <div>
+            <div class="tool-tag"><a href="https://aitoptools.com/ai-tools/website-builder/">Website Builder</a></div>
+            <div class="payment-term">Contact for Pricing</div>
+            <span style="font-weight:600;padding: 0 10px;font-size: 28px;line-height: 14px;vertical-align:middle;">&middot;</span>
+            <span><i class="fas fa-chart-bar" style="font-weight:bold;"></i>&nbsp; <span style="font-weight:bold;">82K</span></span>
+        </div>
+        <div id="tool-31911" class="popup">
+            <header>
+                <span>Landingi</span>
+                <div class="close" onclick=javascript:closebookpopup(31911);>X</div>
+            </header>
+            <div class="content">
+                <div id="loginmsg-31911" style="display:none;">
+                    <p>Please login to add in Bookmark.</p>
+                    <a href="https://aitoptools.com/login/">Login</a>
+                </div>
+                <p id="msgp31911" style="display:none;"></p>
+                <div id="ubdiv-31911" style="">
+                </div>
+                <div id="unewcatdiv-31911" style="display:none;">
+                    <input type="hidden" name="edcatid31911" id="edcatid31911" value="">
+                    <label id="fmlb31911">New Category:</label><input type="text" name="newct31911" id="newct31911" value="">
+                    <input type="button" value="Update" onclick="javscript:addncategory(31911);">
+                </div>
+            </div>
+            <a id="anwbt31911" style="display:none;" onclick="javascript:addbcategory(31911);">New Category</a>
+            <a id="mngbt31911" style="display:none;" onclick="javascript:managebcategory(31911);">Manage Category</a>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 loop-block">
+    <div class="custom-listing">
+        <a href="https://aitoptools.com/tool/ecwid/" class="tool-link-tool-loop"></a>
+        <div class="custom-listing-image"
+            style="background-image: url(https://aitoptools.com/wp-content/uploads/2024/01/ecwid.jpg)">
+            <div class="custom-bookmark"><a
+                    onclick="javascirpt:checkbookmark(32944);"><img src="/wp-content/uploads/2024/01/heart.svg" alt="verify" style="width:32px; vertical-align: middle;"></a>
+            </div>
+        </div>
+        <div class="custom-listing-content">
+            <div class="clearfix">
+                <h2>Ecwid</h2>
+                <div class="tool-rating">
+                    <div data-elementor-type="section" data-elementor-id="128690" class="elementor elementor-128690"
+                        data-elementor-post-type="elementor_library">
+                        <section
+                            class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-d3d610f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="d3d610f" data-element_type="section"
+                            data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+                            <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d4d2c58"
+                                    data-id="d4d2c58" data-element_type="column"
+                                    data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-b16bb6e elementor-widget__width-auto jedv-enabled--yes ob-has-background-overlay elementor-widget elementor-widget-jet-listing-dynamic-field"
+                                            data-id="b16bb6e" data-element_type="widget"
+                                            data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                            data-widget_type="jet-listing-dynamic-field.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="jet-listing jet-listing-dynamic-field display-inline">
+                                                    <div class="jet-listing-dynamic-field__inline-wrap">
+                                                        <div class="jet-listing-dynamic-field__icon is-svg-icon"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1"
+                                                                x="0px" y="0px" viewBox="0 0 21 21"
+                                                                xml:space="preserve">
+                                                                <g id="material-symbols:star-half">
+                                                                    <path id="Vector" fill="#182230"
+                                                                        d="M10.7,7.3l1.9,2l0.3,4.4l0.4,1.7l-0.7-3l2.3-2l-3-0.3L10.7,7.3z M5.5,18.8L6.9,13L2.3,9l6-0.5  L10.7,3L13,8.5L19,9L14.5,13l1.4,5.9l-5.1-3.1L5.5,18.8z">
+                                                                    </path>
+                                                                </g>
+                                                            </svg></div>
+                                                        <div class="jet-listing-dynamic-field__content">5.0</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <p>Create a professional store, attract customers with SEO, digital coupons, email marketing, and sell
+                various products effortlessly.</p>
+        </div>
+        <div>
+            <div class="tool-tag"><a href="https://aitoptools.com/ai-tools/ecommerce/">Ecommerce</a></div>
+            <div class="payment-term">Contact for Pricing</div>
+            <span style="font-weight:600;padding: 0 10px;font-size: 28px;line-height: 14px;vertical-align:middle;">&middot;</span>
+            <span><i class="fas fa-chart-bar" style="font-weight:bold;"></i>&nbsp; <span style="font-weight:bold;">3M</span></span>
+        </div>
+        <div id="tool-32944" class="popup">
+            <header>
+                <span>Ecwid</span>
+                <div class="close" onclick=javascript:closebookpopup(32944);>X</div>
+            </header>
+            <div class="content">
+                <div id="loginmsg-32944" style="display:none;">
+                    <p>Please login to add in Bookmark.</p>
+                    <a href="https://aitoptools.com/login/">Login</a>
+                </div>
+                <p id="msgp32944" style="display:none;"></p>
+                <div id="ubdiv-32944" style="">
+                </div>
+                <div id="unewcatdiv-32944" style="display:none;">
+                    <input type="hidden" name="edcatid32944" id="edcatid32944" value="">
+                    <label id="fmlb32944">New Category:</label><input type="text" name="newct32944" id="newct32944" value="">
+                    <input type="button" value="Update" onclick="javscript:addncategory(32944);">
+                </div>
+            </div>
+            <a id="anwbt32944" style="display:none;" onclick="javascript:addbcategory(32944);">New Category</a>
+            <a id="mngbt32944" style="display:none;" onclick="javascript:managebcategory(32944);">Manage Category</a>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 loop-block">
+    <div class="custom-listing">
+        <a href="https://aitoptools.com/tool/hitpaw-video-enhancer/" class="tool-link-tool-loop"></a>
+        <div class="custom-listing-image"
+            style="background-image: url(https://aitoptools.com/wp-content/uploads/2024/01/hitpaw-video-enhancer.jpg)">
+            <div class="start-price">$42.99/Month</div>
+            <div class="custom-bookmark"><a
+                    onclick="javascirpt:checkbookmark(23219);"><img src="/wp-content/uploads/2024/01/heart.svg" alt="verify" style="width:32px; vertical-align: middle;"></a>
+            </div>
+        </div>
+        <div class="custom-listing-content">
+            <div class="clearfix">
+                <h2>HitPaw Video Enhancer</h2>
+                <div class="tool-rating">
+                    <div data-elementor-type="section" data-elementor-id="128690" class="elementor elementor-128690"
+                        data-elementor-post-type="elementor_library">
+                        <section
+                            class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-d3d610f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="d3d610f" data-element_type="section"
+                            data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+                            <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d4d2c58"
+                                    data-id="d4d2c58" data-element_type="column"
+                                    data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-b16bb6e elementor-widget__width-auto jedv-enabled--yes ob-has-background-overlay elementor-widget elementor-widget-jet-listing-dynamic-field"
+                                            data-id="b16bb6e" data-element_type="widget"
+                                            data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                            data-widget_type="jet-listing-dynamic-field.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="jet-listing jet-listing-dynamic-field display-inline">
+                                                    <div class="jet-listing-dynamic-field__inline-wrap">
+                                                        <div class="jet-listing-dynamic-field__icon is-svg-icon"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1"
+                                                                x="0px" y="0px" viewBox="0 0 21 21"
+                                                                xml:space="preserve">
+                                                                <g id="material-symbols:star-half">
+                                                                    <path id="Vector" fill="#182230"
+                                                                        d="M10.7,7.3l1.9,2l0.3,4.4l0.4,1.7l-0.7-3l2.3-2l-3-0.3L10.7,7.3z M5.5,18.8L6.9,13L2.3,9l6-0.5  L10.7,3L13,8.5L19,9L14.5,13l1.4,5.9l-5.1-3.1L5.5,18.8z">
+                                                                    </path>
+                                                                </g>
+                                                            </svg></div>
+                                                        <div class="jet-listing-dynamic-field__content">4.8</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <p>Enhance videos by fixing blurriness, repairing various types of videos, reducing noise, and colorizing
+                black and white videos.</p>
+        </div>
+        <div>
+            <div class="tool-tag"><a href="https://aitoptools.com/ai-tools/video-enhancer/">Video Enhancer</a></div>
+            <div class="payment-term">Free Trial</div>
+            <span style="font-weight:600;padding: 0 10px;font-size: 28px;line-height: 14px;vertical-align:middle;">&middot;</span>
+            <span><i class="fas fa-chart-bar" style="font-weight:bold;"></i>&nbsp; <span style="font-weight:bold;">9M</span></span>
+        </div>
+        <div id="tool-23219" class="popup">
+            <header>
+                <span>HitPaw Video Enhancer</span>
+                <div class="close" onclick=javascript:closebookpopup(23219);>X</div>
+            </header>
+            <div class="content">
+                <div id="loginmsg-23219" style="display:none;">
+                    <p>Please login to add in Bookmark.</p>
+                    <a href="https://aitoptools.com/login/">Login</a>
+                </div>
+                <p id="msgp23219" style="display:none;"></p>
+                <div id="ubdiv-23219" style="">
+                </div>
+                <div id="unewcatdiv-23219" style="display:none;">
+                    <input type="hidden" name="edcatid23219" id="edcatid23219" value="">
+                    <label id="fmlb23219">New Category:</label><input type="text" name="newct23219" id="newct23219" value="">
+                    <input type="button" value="Update" onclick="javscript:addncategory(23219);">
+                </div>
+            </div>
+            <a id="anwbt23219" style="display:none;" onclick="javascript:addbcategory(23219);">New Category</a>
+            <a id="mngbt23219" style="display:none;" onclick="javascript:managebcategory(23219);">Manage Category</a>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 loop-block">
+    <div class="custom-listing">
+        <a href="https://aitoptools.com/tool/background-remover-from-photo-by-hitpaw/" class="tool-link-tool-loop"></a>
+        <div class="custom-listing-image"
+            style="background-image: url(https://aitoptools.com/wp-content/uploads/2024/01/background-remover-from-photo-by-hitpaw.jpg)">
+            <div class="start-price">Free + from $9.99/mo</div>
+            <div class="custom-bookmark"><a
+                    onclick="javascirpt:checkbookmark(22632);"><img src="/wp-content/uploads/2024/01/heart.svg" alt="verify" style="width:32px; vertical-align: middle;"></a>
+            </div>
+        </div>
+        <div class="custom-listing-content">
+            <div class="clearfix">
+                <h2>Background remover from photo by Hitpaw</h2>
+                <div class="tool-rating">
+                    <div data-elementor-type="section" data-elementor-id="128690" class="elementor elementor-128690"
+                        data-elementor-post-type="elementor_library">
+                        <section
+                            class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-d3d610f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="d3d610f" data-element_type="section"
+                            data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+                            <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d4d2c58"
+                                    data-id="d4d2c58" data-element_type="column"
+                                    data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <p>Create transparent logos, change dull backgrounds to bright ones, and replace complex backgrounds easily.
+            </p>
+        </div>
+        <div>
+            <div class="tool-tag"><a href="https://aitoptools.com/ai-tools/image-enhancer/">Image Enhancer</a></div>
+            <div class="payment-term">Paid</div>
+            <span style="font-weight:600;padding: 0 10px;font-size: 28px;line-height: 14px;vertical-align:middle;">&middot;</span>
+            <span><i class="fas fa-chart-bar" style="font-weight:bold;"></i>&nbsp; <span style="font-weight:bold;">9M</span></span>
+        </div>
+        <div id="tool-22632" class="popup">
+            <header>
+                <span>Background remover from photo by Hitpaw</span>
+                <div class="close" onclick=javascript:closebookpopup(22632);>X</div>
+            </header>
+            <div class="content">
+                <div id="loginmsg-22632" style="display:none;">
+                    <p>Please login to add in Bookmark.</p>
+                    <a href="https://aitoptools.com/login/">Login</a>
+                </div>
+                <p id="msgp22632" style="display:none;"></p>
+                <div id="ubdiv-22632" style="">
+                </div>
+                <div id="unewcatdiv-22632" style="display:none;">
+                    <input type="hidden" name="edcatid22632" id="edcatid22632" value="">
+                    <label id="fmlb22632">New Category:</label><input type="text" name="newct22632" id="newct22632" value="">
+                    <input type="button" value="Update" onclick="javscript:addncategory(22632);">
+                </div>
+            </div>
+            <a id="anwbt22632" style="display:none;" onclick="javascript:addbcategory(22632);">New Category</a>
+            <a id="mngbt22632" style="display:none;" onclick="javascript:managebcategory(22632);">Manage Category</a>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 loop-block">
+    <div class="custom-listing">
+        <a href="https://aitoptools.com/tool/opengpt/" class="tool-link-tool-loop"></a>
+        <div class="custom-listing-image"
+            style="background-image: url(https://aitoptools.com/wp-content/uploads/2024/01/opengpt.jpg)">
+            <div class="custom-bookmark"><a
+                    onclick="javascirpt:checkbookmark(24309);"><img src="/wp-content/uploads/2024/01/heart.svg" alt="verify" style="width:32px; vertical-align: middle;"></a>
+            </div>
+        </div>
+        <div class="custom-listing-content">
+            <div class="clearfix">
+                <h2>OpenGPT</h2>
+                <div class="tool-rating">
+                    <div data-elementor-type="section" data-elementor-id="128690" class="elementor elementor-128690"
+                        data-elementor-post-type="elementor_library">
+                        <section
+                            class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-d3d610f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="d3d610f" data-element_type="section"
+                            data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+                            <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d4d2c58"
+                                    data-id="d4d2c58" data-element_type="column"
+                                    data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <p>Create data models with a visual interface, securely accessing, transforming, and storing data from
+                multiple sources.</p>
+        </div>
+        <div>
+            <div class="tool-tag"><a href="https://aitoptools.com/ai-tools/assistant/">Assistant</a></div>
+            <div class="payment-term">Free</div>
+            <span style="font-weight:600;padding: 0 10px;font-size: 28px;line-height: 14px;vertical-align:middle;">&middot;</span>
+            <span><i class="fas fa-chart-bar" style="font-weight:bold;"></i>&nbsp; <span style="font-weight:bold;">2M</span></span>
+        </div>
+        <div id="tool-24309" class="popup">
+            <header>
+                <span>OpenGPT</span>
+                <div class="close" onclick=javascript:closebookpopup(24309);>X</div>
+            </header>
+            <div class="content">
+                <div id="loginmsg-24309" style="display:none;">
+                    <p>Please login to add in Bookmark.</p>
+                    <a href="https://aitoptools.com/login/">Login</a>
+                </div>
+                <p id="msgp24309" style="display:none;"></p>
+                <div id="ubdiv-24309" style="">
+                </div>
+                <div id="unewcatdiv-24309" style="display:none;">
+                    <input type="hidden" name="edcatid24309" id="edcatid24309" value="">
+                    <label id="fmlb24309">New Category:</label><input type="text" name="newct24309" id="newct24309" value="">
+                    <input type="button" value="Update" onclick="javscript:addncategory(24309);">
+                </div>
+            </div>
+            <a id="anwbt24309" style="display:none;" onclick="javascript:addbcategory(24309);">New Category</a>
+            <a id="mngbt24309" style="display:none;" onclick="javascript:managebcategory(24309);">Manage Category</a>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 loop-block">
+    <div class="custom-listing">
+        <a href="https://aitoptools.com/tool/bramework/" class="tool-link-tool-loop"></a>
+        <div class="custom-listing-image"
+            style="background-image: url(https://aitoptools.com/wp-content/uploads/2024/01/bramework.jpg)">
+            <div class="start-price">$17/Month</div>
+            <div class="custom-bookmark"><a
+                    onclick="javascirpt:checkbookmark(1352);"><img src="/wp-content/uploads/2024/01/heart.svg" alt="verify" style="width:32px; vertical-align: middle;"></a>
+            </div>
+        </div>
+        <div class="custom-listing-content">
+            <div class="clearfix">
+                <h2>BrameWork</h2>
+                <div class="tool-rating">
+                    <div data-elementor-type="section" data-elementor-id="128690" class="elementor elementor-128690"
+                        data-elementor-post-type="elementor_library">
+                        <section
+                            class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-d3d610f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="d3d610f" data-element_type="section"
+                            data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+                            <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d4d2c58"
+                                    data-id="d4d2c58" data-element_type="column"
+                                    data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-b16bb6e elementor-widget__width-auto jedv-enabled--yes ob-has-background-overlay elementor-widget elementor-widget-jet-listing-dynamic-field"
+                                            data-id="b16bb6e" data-element_type="widget"
+                                            data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                            data-widget_type="jet-listing-dynamic-field.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="jet-listing jet-listing-dynamic-field display-inline">
+                                                    <div class="jet-listing-dynamic-field__inline-wrap">
+                                                        <div class="jet-listing-dynamic-field__icon is-svg-icon"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1"
+                                                                x="0px" y="0px" viewBox="0 0 21 21"
+                                                                xml:space="preserve">
+                                                                <g id="material-symbols:star-half">
+                                                                    <path id="Vector" fill="#182230"
+                                                                        d="M10.7,7.3l1.9,2l0.3,4.4l0.4,1.7l-0.7-3l2.3-2l-3-0.3L10.7,7.3z M5.5,18.8L6.9,13L2.3,9l6-0.5  L10.7,3L13,8.5L19,9L14.5,13l1.4,5.9l-5.1-3.1L5.5,18.8z">
+                                                                    </path>
+                                                                </g>
+                                                            </svg></div>
+                                                        <div class="jet-listing-dynamic-field__content">4.8</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <p>Automate blog post research, writing, and editing; generate high-quality, professional content with ease.
+            </p>
+        </div>
+        <div>
+            <div class="tool-tag"><a href="https://aitoptools.com/ai-tools/productivity/">Productivity</a></div>
+            <div class="payment-term">Free Trial</div>
+            <span style="font-weight:600;padding: 0 10px;font-size: 28px;line-height: 14px;vertical-align:middle;">&middot;</span>
+            <span><i class="fas fa-chart-bar" style="font-weight:bold;"></i>&nbsp; <span style="font-weight:bold;">40K</span></span>
+        </div>
+        <div id="tool-1352" class="popup">
+            <header>
+                <span>BrameWork</span>
+                <div class="close" onclick=javascript:closebookpopup(1352);>X</div>
+            </header>
+            <div class="content">
+                <div id="loginmsg-1352" style="display:none;">
+                    <p>Please login to add in Bookmark.</p>
+                    <a href="https://aitoptools.com/login/">Login</a>
+                </div>
+                <p id="msgp1352" style="display:none;"></p>
+                <div id="ubdiv-1352" style="">
+                </div>
+                <div id="unewcatdiv-1352" style="display:none;">
+                    <input type="hidden" name="edcatid1352" id="edcatid1352" value="">
+                    <label id="fmlb1352">New Category:</label><input type="text" name="newct1352" id="newct1352" value="">
+                    <input type="button" value="Update" onclick="javscript:addncategory(1352);">
+                </div>
+            </div>
+            <a id="anwbt1352" style="display:none;" onclick="javascript:addbcategory(1352);">New Category</a>
+            <a id="mngbt1352" style="display:none;" onclick="javascript:managebcategory(1352);">Manage Category</a>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 loop-block">
+    <div class="custom-listing">
+        <a href="https://aitoptools.com/tool/auto-subtitle-generator/" class="tool-link-tool-loop"></a>
+        <div class="custom-listing-image"
+            style="background-image: url(https://aitoptools.com/wp-content/uploads/2024/01/auto-subtitle-generator.jpg)">
+            <div class="start-price">$24/mo</div>
+            <div class="custom-bookmark"><a
+                    onclick="javascirpt:checkbookmark(25936);"><img src="/wp-content/uploads/2024/01/heart.svg" alt="verify" style="width:32px; vertical-align: middle;"></a>
+            </div>
+        </div>
+        <div class="custom-listing-content">
+            <div class="clearfix">
+                <h2>Auto Subtitle Generator</h2>
+                <div class="tool-rating">
+                    <div data-elementor-type="section" data-elementor-id="128690" class="elementor elementor-128690"
+                        data-elementor-post-type="elementor_library">
+                        <section
+                            class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-d3d610f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="d3d610f" data-element_type="section"
+                            data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+                            <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d4d2c58"
+                                    data-id="d4d2c58" data-element_type="column"
+                                    data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-b16bb6e elementor-widget__width-auto jedv-enabled--yes ob-has-background-overlay elementor-widget elementor-widget-jet-listing-dynamic-field"
+                                            data-id="b16bb6e" data-element_type="widget"
+                                            data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                            data-widget_type="jet-listing-dynamic-field.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="jet-listing jet-listing-dynamic-field display-inline">
+                                                    <div class="jet-listing-dynamic-field__inline-wrap">
+                                                        <div class="jet-listing-dynamic-field__icon is-svg-icon"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1"
+                                                                x="0px" y="0px" viewBox="0 0 21 21"
+                                                                xml:space="preserve">
+                                                                <g id="material-symbols:star-half">
+                                                                    <path id="Vector" fill="#182230"
+                                                                        d="M10.7,7.3l1.9,2l0.3,4.4l0.4,1.7l-0.7-3l2.3-2l-3-0.3L10.7,7.3z M5.5,18.8L6.9,13L2.3,9l6-0.5  L10.7,3L13,8.5L19,9L14.5,13l1.4,5.9l-5.1-3.1L5.5,18.8z">
+                                                                    </path>
+                                                                </g>
+                                                            </svg></div>
+                                                        <div class="jet-listing-dynamic-field__content">5.0</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <p>Easily create and customize subtitles in multiple languages, without manual synchronization.</p>
+        </div>
+        <div>
+            <div class="tool-tag"><a href="https://aitoptools.com/ai-tools/productivity/">Productivity</a></div>
+            <div class="payment-term">Freemium</div>
+            <span style="font-weight:600;padding: 0 10px;font-size: 28px;line-height: 14px;vertical-align:middle;">&middot;</span>
+            <span><i class="fas fa-chart-bar" style="font-weight:bold;"></i>&nbsp; <span style="font-weight:bold;">6M</span></span>
+        </div>
+        <div id="tool-25936" class="popup">
+            <header>
+                <span>Auto Subtitle Generator</span>
+                <div class="close" onclick=javascript:closebookpopup(25936);>X</div>
+            </header>
+            <div class="content">
+                <div id="loginmsg-25936" style="display:none;">
+                    <p>Please login to add in Bookmark.</p>
+                    <a href="https://aitoptools.com/login/">Login</a>
+                </div>
+                <p id="msgp25936" style="display:none;"></p>
+                <div id="ubdiv-25936" style="">
+                </div>
+                <div id="unewcatdiv-25936" style="display:none;">
+                    <input type="hidden" name="edcatid25936" id="edcatid25936" value="">
+                    <label id="fmlb25936">New Category:</label><input type="text" name="newct25936" id="newct25936" value="">
+                    <input type="button" value="Update" onclick="javscript:addncategory(25936);">
+                </div>
+            </div>
+            <a id="anwbt25936" style="display:none;" onclick="javascript:addbcategory(25936);">New Category</a>
+            <a id="mngbt25936" style="display:none;" onclick="javascript:managebcategory(25936);">Manage Category</a>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 loop-block">
+    <div class="custom-listing">
+        <a href="https://aitoptools.com/tool/lingq/" class="tool-link-tool-loop"></a>
+        <div class="custom-listing-image"
+            style="background-image: url(https://aitoptools.com/wp-content/uploads/2024/01/lingq.jpg)">
+            <div class="custom-bookmark"><a
+                    onclick="javascirpt:checkbookmark(31870);"><img src="/wp-content/uploads/2024/01/heart.svg" alt="verify" style="width:32px; vertical-align: middle;"></a>
+            </div>
+        </div>
+        <div class="custom-listing-content">
+            <div class="clearfix">
+                <h2>LingQ</h2>
+                <div class="tool-rating">
+                    <div data-elementor-type="section" data-elementor-id="128690" class="elementor elementor-128690"
+                        data-elementor-post-type="elementor_library">
+                        <section
+                            class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-d3d610f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="d3d610f" data-element_type="section"
+                            data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;_ob_bbad_use_it&quot;:&quot;yes&quot;,&quot;_ob_bbad_sssic_use&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+                            <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d4d2c58"
+                                    data-id="d4d2c58" data-element_type="column"
+                                    data-settings="{&quot;_ob_bbad_is_stalker&quot;:&quot;no&quot;,&quot;_ob_teleporter_use&quot;:false,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-b16bb6e elementor-widget__width-auto jedv-enabled--yes ob-has-background-overlay elementor-widget elementor-widget-jet-listing-dynamic-field"
+                                            data-id="b16bb6e" data-element_type="widget"
+                                            data-settings="{&quot;_ob_perspektive_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;}"
+                                            data-widget_type="jet-listing-dynamic-field.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="jet-listing jet-listing-dynamic-field display-inline">
+                                                    <div class="jet-listing-dynamic-field__inline-wrap">
+                                                        <div class="jet-listing-dynamic-field__icon is-svg-icon"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1"
+                                                                x="0px" y="0px" viewBox="0 0 21 21"
+                                                                xml:space="preserve">
+                                                                <g id="material-symbols:star-half">
+                                                                    <path id="Vector" fill="#182230"
+                                                                        d="M10.7,7.3l1.9,2l0.3,4.4l0.4,1.7l-0.7-3l2.3-2l-3-0.3L10.7,7.3z M5.5,18.8L6.9,13L2.3,9l6-0.5  L10.7,3L13,8.5L19,9L14.5,13l1.4,5.9l-5.1-3.1L5.5,18.8z">
+                                                                    </path>
+                                                                </g>
+                                                            </svg></div>
+                                                        <div class="jet-listing-dynamic-field__content">1.0</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <p>Create personalized language lessons, engage with interactive activities, and monitor proficiency with
+                quizzes.</p>
+        </div>
+        <div>
+            <div class="tool-tag"><a href="https://aitoptools.com/ai-tools/education/">Education</a></div>
+            <div class="payment-term">Contact for Pricing</div>
+            <span style="font-weight:600;padding: 0 10px;font-size: 28px;line-height: 14px;vertical-align:middle;">&middot;</span>
+            <span><i class="fas fa-chart-bar" style="font-weight:bold;"></i>&nbsp; <span style="font-weight:bold;">2M</span></span>
+        </div>
+        <div id="tool-31870" class="popup">
+            <header>
+                <span>LingQ</span>
+                <div class="close" onclick=javascript:closebookpopup(31870);>X</div>
+            </header>
+            <div class="content">
+                <div id="loginmsg-31870" style="display:none;">
+                    <p>Please login to add in Bookmark.</p>
+                    <a href="https://aitoptools.com/login/">Login</a>
+                </div>
+                <p id="msgp31870" style="display:none;"></p>
+                <div id="ubdiv-31870" style="">
+                </div>
+                <div id="unewcatdiv-31870" style="display:none;">
+                    <input type="hidden" name="edcatid31870" id="edcatid31870" value="">
+                    <label id="fmlb31870">New Category:</label><input type="text" name="newct31870" id="newct31870" value="">
+                    <input type="button" value="Update" onclick="javscript:addncategory(31870);">
+                </div>
+            </div>
+            <a id="anwbt31870" style="display:none;" onclick="javascript:addbcategory(31870);">New Category</a>
+            <a id="mngbt31870" style="display:none;" onclick="javascript:managebcategory(31870);">Manage Category</a>
+        </div>
+    </div>
+</div>

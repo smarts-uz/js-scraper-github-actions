@@ -1,0 +1,21 @@
+{
+  "name": "aicenter.ai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "save": "node src/saveToDatabase.js",
+    "parse": "node src/parseToLocal.js",
+    "test-parser": "node ./src/test-parser.js",
+    "prepare-parser": "node ./src/prepare.js"
+  },
+  "author": "Ramz001",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cheerio": "^1.0.0",
+    "p-limit": "^6.2.0",
+    "pg": "^8.15.6"
+  }
+}
