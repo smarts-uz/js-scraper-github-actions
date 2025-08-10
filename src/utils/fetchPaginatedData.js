@@ -25,7 +25,7 @@ const fetchPaginatedData = async (page, perPage = 100) => {
       data: data.results || [],
       pagination: {
         currentPage: page,
-        totalItems: data.totalPages || 0,
+        totalItems: data.total || 0,
         perPage: data?.results?.length || 20
       }
     };

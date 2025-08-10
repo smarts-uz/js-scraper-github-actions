@@ -3,7 +3,7 @@ const path = require('path');
 const db_name = 'actions';
 const name = 'aitoptools.com';
 const website_url = "https://aitoptools.com"
-const max_page = 2 // SET TO INFINITY LATER
+const max_page = 999999999 // SET TO INFINITY LATER
 const base_url = "https://github.com/marketplace"
 const type = 'actions'
 

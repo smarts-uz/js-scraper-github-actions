@@ -1,20 +1,10 @@
 const fs = require('fs');
 const path = require('path');
-const { name, website_url, output_dir, save_html } = require('../config')
+const { output_dir, save_html } = require('../config')
 
 const { ensureDirectoryExists } = require('./ensureDirectoryExists');
 const { saveCategoriesAsFiles } = require('./saveCategoriesAsFiles');
 const { saveItemsAsHtmlBatch, markItem } = require('./saveItemsAsHtml');
-
-const createCleanNameFromUrl = (rawUrl) => {
-  if (!rawUrl) return `unknown-${Date.now()}`;
-
-  let host = new URL(rawUrl).hostname;
-
-  host = host.replace(/^www\./, '');
-
-  return host.toLowerCase();
-};
 
 const saveItemsAsFiles = async (items, concurrencyLimit = 10) => {
   ensureDirectoryExists(output_dir);
@@ -31,15 +21,24 @@ const saveItemsAsFiles = async (items, concurrencyLimit = 10) => {
       console.log(`Skipping item ${item.title} ID: ${item.id} without website URL`);
       continue;
     }
-    console.log("item", item)
+
     const folderName = item.title;
-    const itemDir = path.join(output_dir, folderName);
+
+    let rootFolder
+    if (item?.tags?.length > 1 && item?.tags[0] !== 'continuous-integration') {
+      rootFolder = item?.tags[0]
+    } else {
+      rootFolder = 'ALL'
+    }
+
+    const itemDir = path.join(output_dir, rootFolder, folderName);
 
     ensureDirectoryExists(itemDir);
 
     const urlFilePath = path.join(itemDir, `${folderName}.url`);
     const starsFilePath = path.join(itemDir, `#Stars ${item?.star}.txt`)
     const contributorFilePath = path.join(itemDir, `#Contributors ${item?.contributor}.txt`)
+    const iconPath = path.join(itemDir, `${folderName}.svg`)
 
     if (!fs.existsSync(starsFilePath)) {
       fs.writeFileSync(starsFilePath, "")
@@ -47,7 +46,9 @@ const saveItemsAsFiles = async (items, concurrencyLimit = 10) => {
     if (!fs.existsSync(contributorFilePath)) {
       fs.writeFileSync(contributorFilePath, "")
     }
-
+    if (!fs.existsSync(iconPath)) {
+      fs.writeFileSync(iconPath, item?.image)
+    }
     if (!fs.existsSync(urlFilePath)) {
       const shortcutContent = `[InternetShortcut]\nURL=${item.url}\n`;
       fs.writeFileSync(urlFilePath, shortcutContent);
