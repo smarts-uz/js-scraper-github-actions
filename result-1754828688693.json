@@ -1,0 +1,14 @@
+{
+  "version": "v3.90.3",
+  "tags": [
+    "continuous-integration",
+    "security"
+  ],
+  "starCount": "20.1K",
+  "contributorCount": "152",
+  "sourceCode": {
+    "repoUrl": "https://github.com/trufflesecurity/trufflehog",
+    "owner": "trufflesecurity",
+    "repoName": "trufflehog"
+  }
+}

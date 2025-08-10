@@ -1,8 +1,8 @@
-const { base_url } = require('../config');
+const { base_url, type } = require('../config');
 const { parseHTMLtoJSON } = require('./parseHTMLtoJSON');
 
 const createPaginatedUrl = (page = 1) => {
-  const url = new URL(`${base_url}${page}/`);
+  const url = new URL(`${base_url}?page=${page}&type=${type}/`);
   return url.toString();
 };
 
@@ -12,22 +12,20 @@ const fetchPaginatedData = async (page, perPage = 100) => {
   try {
     const response = await fetch(url, {
       method: 'GET',
-      // headers: {
-      //   'Content-Type': 'text/html; charset=UTF-8'
-      // }
+      headers: {
+        'accept': 'application/json'
+      }
     });
-
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
-    const responseText = await response.text();
-    const responseJSON = parseHTMLtoJSON(responseText);
-
+    const data = await response.json();
+    console.log(data)
     return {
-      data: responseJSON || [],
+      data: data.results || [],
       pagination: {
         currentPage: page,
-        totalItems: responseJSON.length * 850 || 0,
+        totalItems: data.totalPages || 0,
         perPage: 20
       }
     };

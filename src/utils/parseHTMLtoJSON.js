@@ -2,73 +2,61 @@ const cheerio = require('cheerio');
 
 const normalizeString = (str) => {
   if (!str || typeof str !== 'string') return '';
-  return str
-    .replace(/\n/g, ' ')       // Replace newlines with spaces
-    .replace(/\s+/g, ' ')      // Replace multiple spaces with a single space
-    .trim();                   // Remove leading and trailing whitespace
+  return str.replace(/\n/g, ' ').replace(/\s+/g, ' ').trim();
 };
 
 const parseHTMLtoJSON = (html) => {
   const $ = cheerio.load(html);
-  const tools = [];
 
-  // Find all tool cards
-  $('.custom-listing').each((index, element) => {
-    const card = $(element);
+  const version = normalizeString($('[title^="v"]').first().text());
 
-    // Extract image data
-    const imageElement = card.find('.custom-listing-image');
-    const imageUrl = imageElement.css('background-image')?.replace(/^url\(["']?/, '').replace(/["']?\)$/, '') || '';
-
-    // Extract title and links
-    const titleElement = card.find('h2');
-    const title = normalizeString(titleElement.text());
-    const internalLink = card.find('a.tool-link-tool-loop').attr('href') || '';
-
-    // Extract description
-    const description = normalizeString(card.find('.custom-listing-content p').text());
-
-    // Extract tags
-    const tags = [];
-    card.find('.tool-tag a').each((i, tagElement) => {
-      tags.push(normalizeString($(tagElement).text()));
-    });
-
-    // Extract pricing
-    const pricing = normalizeString(card.find('.payment-term').text());
-
-    // Extract popularity
-    const popularityElement = card.find('.fas.fa-chart-bar').siblings('span');
-    const popularity = normalizeString(popularityElement.text());
-
-    // Build the tool object
-    const tool = {
-      title,
-      internalLink,
-      image: imageUrl,
-      description,
-      tags,
-      pricing,
-      popularity,
-    };
-
-    tools.push(tool);
+  const tags = [];
+  $('[data-testid="tags"] .topic-tag').each((i, el) => {
+    tags.push(normalizeString($(el).text()));
   });
 
-  return tools;
-};
 
-const parseSingleHTMLtoJSON = (html) => {
-  const $ = cheerio.load(html);
-
-  // Find all "Visit Site" links with target="_blank" and rel="nofollow"
-  const visitSiteLink = $('a:contains("Visit Site")[target="_blank"][rel="nofollow"]').attr('href') || '';
-
-  const tool = {
-    externalLink: visitSiteLink
+  // Star count
+  let starCount = '';
+  const starBtnText = $('[data-testid="star-button"]').text();
+  if (starBtnText) {
+    const match = starBtnText.match(/Star\s*([\d.,Kk]+)/);
+    if (match) starCount = match[1];
   }
 
-  return tool;
+  // Contributor count
+  let contributorCount = '';
+  $('[href$="/graphs/contributors"], .contributors, a:contains("contributors")').each((i, el) => {
+    const numMatch = normalizeString($(el).text()).match(/([\d.,Kk]+)/);
+    if (numMatch) contributorCount = numMatch[1];
+  });
+
+  // Source code info from "View source code" link
+  let repoUrl = '';
+  let owner = '';
+  let repoName = '';
+
+  const viewSourceLink = $('a:contains("View source code")').attr('href');
+  if (viewSourceLink) {
+    repoUrl = `https://github.com${viewSourceLink}`;
+    const parts = viewSourceLink.split('/');
+    if (parts.length >= 3) {
+      owner = parts[1];
+      repoName = parts[2];
+    }
+  }
+
+  return {
+    version,
+    tags: [...new Set(tags)],
+    starCount,
+    contributorCount,
+    sourceCode: {
+      repoUrl,
+      owner,
+      repoName
+    }
+  };
 };
 
-module.exports = { parseHTMLtoJSON, normalizeString, parseSingleHTMLtoJSON };
+module.exports = { parseHTMLtoJSON, normalizeString };

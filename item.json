@@ -1,0 +1,20 @@
+{
+  "id": 468277,
+  "isVerifiedOwner": true,
+  "version": "v3.90.3",
+  "tags": ["continuous-integration", "security"],
+  "starCount": "20.1K",
+  "contributorCount": "152",
+  "sourceCode": {
+    "repoUrl": "https://github.com/trufflesecurity/trufflehog",
+    "owner": "trufflesecurity",
+    "repoName": "trufflehog"
+  },
+  "description": "Find and verify leaked credentials in your source code\n",
+  "iconSvg": "<svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n>\n  <path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\" />\n</svg>\n",
+  "name": "TruffleHog OSS",
+  "slug": "trufflehog-oss",
+  "url": "https://github.com/marketplace/actions/trufflehog-oss",
+  "color": "28a745",
+  "type": "repository_action"
+}
