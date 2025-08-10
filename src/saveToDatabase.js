@@ -10,25 +10,31 @@ const main = async () => {
     console.log('🚀 Starting data fetching process...');
     console.time('Total Execution Time');
 
-    const result = fs.readFileSync(path.join(__dirname, 'result.json'), 'utf8');
-    const results = JSON.parse(result);
+    const results = JSON.parse(fs.readFileSync(path.join(__dirname, 'result.json'), 'utf8'))
     const items = []
 
     console.log(`📊 Total items to process: ${results.length}`);
 
     for (const [index, item] of results.entries()) {
       if (index > max_page) break;
-      console.log(`🔍 Processing item ${index + 1}/${results.length}: ${item.title}`);
+      console.log(`🔍 Processing item ${index + 1}/${results.length}: ${item.name}`);
+      const itemUrl = `https://github.com/marketplace/actions/${item.slug}`
 
-      console.log(`🌐 Fetching details for URL: ${item.internalLink}`);
+      console.log(`🌐 Fetching details for URL: ${itemUrl}`);
 
-      const data = await fetchEachPage(item.internalLink);
-
+      const data = await fetchEachPage(itemUrl);
+      console.log(item, data)
       const mergedItem = {
         ...item,
-        externalLink: data.externalLink
+        version: data?.version,
+        starCount: data?.starCount,
+        contributorCount: data?.contributorCount,
+        sourceCode: data?.sourceCode || {},
+        url: itemUrl,
+        tags: data?.tags || []
       };
-      console.log(`✅ Successfully processed: ${item.title}`);
+
+      console.log(`✅ Successfully processed: ${item.name}`);
       items.push(mergedItem)
     }
     console.log(`📥 Saving ${items.length} items to database...`);

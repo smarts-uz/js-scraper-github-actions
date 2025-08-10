@@ -1,4 +1,4 @@
-const { parseSingleHTMLtoJSON } = require('./parseHTMLtoJSON');
+const { parseHTMLtoJSON } = require('./parseHTMLtoJSON');
 
 const fetchEachPage = async (url) => {
   try {
@@ -8,7 +8,7 @@ const fetchEachPage = async (url) => {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
     const responseText = await response.text();
-    return parseSingleHTMLtoJSON(responseText)
+    return parseHTMLtoJSON(responseText)
   } catch (error) {
     throw new Error('Error fetching paginated data: ' + error.message);
   }

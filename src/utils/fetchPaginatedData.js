@@ -2,7 +2,7 @@ const { base_url, type } = require('../config');
 const { parseHTMLtoJSON } = require('./parseHTMLtoJSON');
 
 const createPaginatedUrl = (page = 1) => {
-  const url = new URL(`${base_url}?page=${page}&type=${type}/`);
+  const url = new URL(`${base_url}?page=${page}&type=${type}`);
   return url.toString();
 };
 
@@ -20,13 +20,13 @@ const fetchPaginatedData = async (page, perPage = 100) => {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
     const data = await response.json();
-    console.log(data)
+    console.log(url)
     return {
       data: data.results || [],
       pagination: {
         currentPage: page,
         totalItems: data.totalPages || 0,
-        perPage: 20
+        perPage: data?.results?.length || 20
       }
     };
   } catch (error) {

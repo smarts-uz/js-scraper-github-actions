@@ -1,17 +1,23 @@
 CREATE TABLE
-    IF NOT EXISTS products (
+    IF NOT EXISTS actions (
         id SERIAL PRIMARY KEY,
-        title VARCHAR(255),
-        internal_link VARCHAR(255) UNIQUE NOT NULL,
-        external_link VARCHAR(255) UNIQUE NOT NULL,
-        image VARCHAR(255),
+        title VARCHAR(255), -- maps from 'name'
+        slug VARCHAR(255), -- maps from 'slug'
+        url VARCHAR(255) UNIQUE, -- can map from 'sourceCode.repoUrl'
+        image TEXT, -- can store 'iconSvg' or a URL
         description TEXT,
-        tags JSONB,
-        pricing VARCHAR(100),
-        popularity VARCHAR(50),
+        tags JSONB, -- array from 'tags'
         pid INT,
         is_taken BOOLEAN DEFAULT FALSE,
         is_dead BOOLEAN DEFAULT FALSE,
+        -- New fields from API
+        is_verified_owner BOOLEAN,
+        version VARCHAR(50),
+        star_count VARCHAR(20), -- keep as string since API sends '20.1K'
+        contributor_count VARCHAR(20),
+        source_code JSONB, -- store full sourceCode object
+        color VARCHAR(20),
+        type VARCHAR(50),
         created_at TIMESTAMP
         WITH
             TIME ZONE DEFAULT CURRENT_TIMESTAMP,

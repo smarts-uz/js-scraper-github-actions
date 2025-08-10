@@ -10,17 +10,10 @@ const main = async () => {
 
     if (allItems && allItems.length > 0) {
       // Filter out items without an internal link
-      const filteredItems = allItems.filter(item =>
-        item.internalLink && item.internalLink.trim() !== ''
-      );
+      const outputPath = path.join(__dirname, 'result.json');
 
-      if (filteredItems.length > 0) {
-        const outputPath = path.join(__dirname, 'result.json');
-        fs.writeFileSync(outputPath, JSON.stringify(filteredItems, null, 2));
-        console.log(`Saved ${filteredItems.length} items to ${outputPath}`);
-      } else {
-        console.log('No items with valid internal link found.');
-      }
+      console.log(`Saved ${allItems.length} items to ${outputPath}`);
+      fs.writeFileSync(outputPath, JSON.stringify(allItems, null, 2));
     }
   } catch (error) {
     console.error('Error in main function:', error);

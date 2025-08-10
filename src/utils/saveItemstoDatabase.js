@@ -10,39 +10,49 @@ const saveItemsToDatabase = async (items) => {
 
     console.log(`Processing ${items.length} items`);
 
-    for (const item of items) {
-      if (!item?.title) continue;
+    for (let i = 0; i < items.length; i++) {
+      const item = items[i];
+      if (!item?.name) continue; // API uses 'name', not 'title'
 
-      if (items.indexOf(item) % 50 === 0) {
-        console.log('Saving item:', item.title);
+      if (i % 50 === 0) {
+        console.log('Saving item:', item.name);
+        console.log(item)
       }
 
       const query = `
-        INSERT INTO products (
-          title, internal_link, external_link, 
-          image, description, tags, 
-          pricing, popularity
+        INSERT INTO actions (
+          title, slug, url, image, description, tags, pid, 
+          is_verified_owner, version, star_count, contributor_count, 
+          source_code, color, type
         ) VALUES (
-          $1, $2, $3, $4, $5, $6, $7, $8
+          $1, $2, $3, $4, $5, $6, $7,
+          $8, $9, $10, $11,
+          $12, $13, $14
         )
-          on conflict (internal_link) do nothing
+        ON CONFLICT (url) DO NOTHING
       `;
 
       const values = [
-        item.title || '',
-        item.internalLink || null,
-        item.externalLink || null,
-        item.image || null,
+        item.name || '', // title
+        item.slug || null,
+        item.url || null, // url
+        item.iconSvg || null, // image
         item.description || null,
-        item.tags ? JSON.stringify(item.tags) : null,
-        item.pricing || null,
-        item.popularity || null,
+        item.tags ? JSON.stringify(item.tags) : null, // tags as JSON
+        item.pid || null, // pid
+        item.isVerifiedOwner ?? null, // is_verified_owner
+        item.version || null,
+        item.starCount || null, // keep string format
+        item.contributorCount?.toString() || null,
+        item.sourceCode ? JSON.stringify(item.sourceCode) : null, // source_code JSONB
+        item.color || null,
+        item.type || null
       ];
 
       try {
         await client.query(query, values);
       } catch (itemError) {
-        console.warn(`Skipping item ${item.title} due to error:`, itemError.message);
+        console.warn(`Skipping item ${item.name} due to error:`, itemError.message);
         continue;
       }
     }
