@@ -1,1 +1,3 @@
-curl --location 'https://aitoptools.com/ajaxtool/12/'
+curl --location 'https://github.com/marketplace?page=1&type=actions' \
+--header 'accept: application/json' \
+--header 'Cookie: _gh_sess=fpwF5IAg4SjUHEytkRQ3vJXTMFLDv5MrzlmwqNO%2FvGo6Y8QEIbqN11PyCDDSgvbjBOkDoFlvvjMrd9bIkDlAuKlu33rjfW1hU8QMlM8ys6lZh7VEJIrHVyu8tDfrW71CB%2Ftur9Te5IWPJs00c3%2BGMCC3fMk0ekwgE8fx9ts%2B%2BKBzcMy5i2q8YozZRruTcnLTADbkitTZ%2FViJEfVTRZBQUFd505%2BhFqjyiPbm%2FOPhgqkxnZoMIgZfQVOUMGUq81%2BB2UmYPXuCyT85rJ66zYlhtQ%3D%3D--%2FKI5E6m41T2EpxXt--S9sBgWLhdJKSjsvnv3XMTg%3D%3D; _octo=GH1.1.613728400.1754822078; logged_in=no'
