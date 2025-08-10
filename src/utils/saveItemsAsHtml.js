@@ -9,7 +9,7 @@ const markItem = async (itemId, column = 'is_dead', value = true) => {
     const client = await pool.connect();
     try {
       await client.query(
-        `UPDATE products SET ${column} = ${value}, updated_at = CURRENT_TIMESTAMP WHERE id = $1`,
+        `UPDATE actions SET ${column} = ${value}, updated_at = CURRENT_TIMESTAMP WHERE id = $1`,
         [itemId]
       );
       console.log(`Marked item #${itemId} as ${column} in database`);

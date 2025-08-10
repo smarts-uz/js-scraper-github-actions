@@ -22,7 +22,7 @@ const saveItemsToDatabase = async (items) => {
       const query = `
         INSERT INTO actions (
           title, slug, url, image, description, tags, pid, 
-          is_verified_owner, version, star_count, contributor_count, 
+          is_verified_owner, version, star, contributor, 
           source_code, color, type
         ) VALUES (
           $1, $2, $3, $4, $5, $6, $7,

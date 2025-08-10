@@ -27,29 +27,30 @@ const saveItemsAsFiles = async (items, concurrencyLimit = 10) => {
   for (let index = 0; index < items.length; index++) {
     const item = items[index];
 
-    if (!item || !item.external_link || item.external_link === "#") {
+    if (!item) {
       console.log(`Skipping item ${item.title} ID: ${item.id} without website URL`);
       continue;
     }
-
-    const folderName = createCleanNameFromUrl(item.external_link);
+    console.log("item", item)
+    const folderName = item.title;
     const itemDir = path.join(output_dir, folderName);
-    const docsDir = path.join(output_dir, folderName, "- Theory");
 
     ensureDirectoryExists(itemDir);
-    ensureDirectoryExists(docsDir);
 
     const urlFilePath = path.join(itemDir, `${folderName}.url`);
-    const urlWebsitePath = path.join(docsDir, `${name}.url`)
+    const starsFilePath = path.join(itemDir, `#Stars ${item?.star}.txt`)
+    const contributorFilePath = path.join(itemDir, `#Contributors ${item?.contributor}.txt`)
 
-    if (!fs.existsSync(urlFilePath)) {
-      const shortcutContent = `[InternetShortcut]\nURL=${item.external_link}\n`;
-      fs.writeFileSync(urlFilePath, shortcutContent);
+    if (!fs.existsSync(starsFilePath)) {
+      fs.writeFileSync(starsFilePath, "")
+    }
+    if (!fs.existsSync(contributorFilePath)) {
+      fs.writeFileSync(contributorFilePath, "")
     }
 
-    if (!fs.existsSync(urlWebsitePath)) {
-      const shortcutContent = `[InternetShortcut]\nURL=${website_url + item?.internal_link}\n`;
-      fs.writeFileSync(urlWebsitePath, shortcutContent);
+    if (!fs.existsSync(urlFilePath)) {
+      const shortcutContent = `[InternetShortcut]\nURL=${item.url}\n`;
+      fs.writeFileSync(urlFilePath, shortcutContent);
     }
 
     if (index % 50 === 0 || index === items.length - 1) {

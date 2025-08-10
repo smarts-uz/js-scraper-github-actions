@@ -13,8 +13,8 @@ CREATE TABLE
         -- New fields from API
         is_verified_owner BOOLEAN,
         version VARCHAR(50),
-        star_count VARCHAR(20), -- keep as string since API sends '20.1K'
-        contributor_count VARCHAR(20),
+        star VARCHAR(20), -- keep as string since API sends '20.1K'
+        contributor VARCHAR(20),
         source_code JSONB, -- store full sourceCode object
         color VARCHAR(20),
         type VARCHAR(50),

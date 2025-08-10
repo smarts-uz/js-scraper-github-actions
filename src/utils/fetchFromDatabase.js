@@ -7,7 +7,7 @@ const fetchProductsFromDatabase = async (page = 1, pageSize = 1000000) => {
     const offset = (page - 1) * pageSize;
 
     const query = `
-      SELECT * FROM products 
+      SELECT * FROM actions 
       WHERE is_dead = FALSE OR is_taken = FALSE
       ORDER BY id 
       LIMIT $1 OFFSET $2
@@ -17,7 +17,7 @@ const fetchProductsFromDatabase = async (page = 1, pageSize = 1000000) => {
 
     return result.rows;
   } catch (error) {
-    console.error('Error fetching products from database:', error);
+    console.error('Error fetching actions from database:', error);
     throw error;
   } finally {
     client.release();
