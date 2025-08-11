@@ -6,6 +6,14 @@ const { ensureDirectoryExists } = require('./ensureDirectoryExists');
 const { saveCategoriesAsFiles } = require('./saveCategoriesAsFiles');
 const { saveItemsAsHtmlBatch, markItem } = require('./saveItemsAsHtml');
 
+function folderNameCompatible(input) {
+  return input
+    .normalize('NFKD').replace(/[\u0300-\u036f]/g, '') // remove accents
+    .replace(/[^A-Za-z0-9 \-]+/g, '') // keep only letters, digits, space, hyphen
+    .replace(/\s+/g, ' ') // collapse multiple spaces
+    .trim();
+}
+
 const saveItemsAsFiles = async (items, concurrencyLimit = 10) => {
   ensureDirectoryExists(output_dir);
 
@@ -22,10 +30,10 @@ const saveItemsAsFiles = async (items, concurrencyLimit = 10) => {
       continue;
     }
 
-    const folderName = item.title;
+    const folderName = folderNameCompatible(item.title);
 
     let rootFolder
-    if (item?.tags?.length > 1 && item?.tags[0] !== 'continuous-integration') {
+    if (item?.tags?.length > 1) {
       rootFolder = item?.tags[0]
     } else {
       rootFolder = 'ALL'
@@ -40,16 +48,16 @@ const saveItemsAsFiles = async (items, concurrencyLimit = 10) => {
     const contributorFilePath = path.join(itemDir, `#Contributors ${item?.contributor}.txt`)
     const iconPath = path.join(itemDir, `${folderName}.svg`)
 
-    if (!fs.existsSync(starsFilePath)) {
+    if (!fs.existsSync(starsFilePath) && item?.star) {
       fs.writeFileSync(starsFilePath, "")
     }
-    if (!fs.existsSync(contributorFilePath)) {
+    if (!fs.existsSync(contributorFilePath) && item?.contributor) {
       fs.writeFileSync(contributorFilePath, "")
     }
-    if (!fs.existsSync(iconPath)) {
+    if (!fs.existsSync(iconPath) && item?.image) {
       fs.writeFileSync(iconPath, item?.image)
     }
-    if (!fs.existsSync(urlFilePath)) {
+    if (!fs.existsSync(urlFilePath) && item?.url) {
       const shortcutContent = `[InternetShortcut]\nURL=${item.url}\n`;
       fs.writeFileSync(urlFilePath, shortcutContent);
     }

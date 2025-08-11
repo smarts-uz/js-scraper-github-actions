@@ -5,12 +5,12 @@ const fetchEachPage = async (url) => {
     const response = await fetch(url);
 
     if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+      console.error(`HTTP error! status: ${response.status}`);
     }
     const responseText = await response.text();
     return parseHTMLtoJSON(responseText)
   } catch (error) {
-    throw new Error('Error fetching paginated data: ' + error.message);
+    console.error('Error fetching paginated data: ' + error.message);
   }
 };
 
