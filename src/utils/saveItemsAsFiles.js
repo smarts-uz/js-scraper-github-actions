@@ -31,10 +31,11 @@ const saveItemsAsFiles = async (items, concurrencyLimit = 10) => {
     }
 
     const folderName = folderNameCompatible(item.title);
-
+    const tags = item.tags.filter(i => i !== 'continuous-integration') || [];
+    console.log(tags)
     let rootFolder
-    if (item?.tags?.length > 1) {
-      rootFolder = item?.tags[0]
+    if (tags.length > 1) {
+      rootFolder = tags[0]
     } else {
       rootFolder = 'ALL'
     }

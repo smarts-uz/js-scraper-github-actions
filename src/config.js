@@ -11,7 +11,7 @@ const chunk_size = 10;
 const concurrency_limit = 10;
 const output_dir = path.join(process.cwd(), "output");
 const save_html = false;
-
+// z:\Deploys\github.com Actions\Parsings\
 module.exports = {
   db_name,
   name,
